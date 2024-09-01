@@ -9,10 +9,10 @@ const Woman = () => {
 
         <p>Womans Items:</p>
         <ul>
-            <li><Link to='grooming'>Grooming</Link></li>
-            <li><Link to='shirt'>Shirt</Link></li>
-            <li><Link to='trouser'>Trouser</Link></li>
-            <li><Link to='jewellery'>Jewellery</Link></li>
+            <li><Link to='Grooming'>Grooming</Link></li>
+            <li><Link to='Shirt'>Shirt</Link></li>
+            <li><Link to='Trouser'>Trouser</Link></li>
+            <li><Link to='Jewellery'>Jewellery</Link></li>
         </ul>
 
         <Outlet/>

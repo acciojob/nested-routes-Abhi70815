@@ -21,10 +21,10 @@ const Layout = () => {
             <Route path='/' element={<Home/>}/>
             
             <Route path='woman' element={<Woman/>}>
-               <Route path='grooming' element={<Grooming/>}/>
-               <Route path='shirt' element={<Shirt/>}/>
-            <Route path='trouser' element={<Trouser/>}/>
-            <Route path='jewellery' element={<Jewellery/>}/>
+               <Route path='Grooming' element={<Grooming/>}/>
+               <Route path='Shirt' element={<Shirt/>}/>
+            <Route path='Trouser' element={<Trouser/>}/>
+            <Route path='Jewellery' element={<Jewellery/>}/>
                
             </Route>
         </Routes>
