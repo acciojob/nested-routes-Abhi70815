@@ -12,7 +12,7 @@ const Layout = () => {
     <div>
         <ul>
             <li><Link to="/">Home</Link> </li>
-            <li><Link to="/woman">Woman</Link></li>
+            <li><Link to="/women">Woman</Link></li>
             
         </ul>
 
@@ -20,7 +20,7 @@ const Layout = () => {
         <Routes>
             <Route path='/' element={<Home/>}/>
             
-            <Route path='woman' element={<Woman/>}>
+            <Route path='women' element={<Woman/>}>
                <Route path='Grooming' element={<Grooming/>}/>
                <Route path='Shirt' element={<Shirt/>}/>
             <Route path='Trouser' element={<Trouser/>}/>
