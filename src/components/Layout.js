@@ -12,7 +12,7 @@ const Layout = () => {
     <div>
         <ul>
             <li><Link to="/">Home</Link> </li>
-            <li><Link to="/women">Woman</Link></li>
+            <li><Link to="/women">Women</Link></li>
             
         </ul>
 

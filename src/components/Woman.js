@@ -7,7 +7,7 @@ const Woman = () => {
     <div>
      
 
-        <p>Womans Items:</p>
+        <p>Womens Items:</p>
         <ul>
             <li><Link to='Grooming'>Grooming</Link></li>
             <li><Link to='Shirt'>Shirt</Link></li>
