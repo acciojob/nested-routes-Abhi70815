@@ -9,12 +9,14 @@ import Jewellery from './Jewellery'
 
 const Layout = () => {
   return (
-    <div>
-        <ul>
+    <main>
+       <nav>
+       <ul>
             <li><Link to="/">Home</Link> </li>
             <li><Link to="/women">Women</Link></li>
             
         </ul>
+       </nav>
 
             
         <Routes>
@@ -29,7 +31,7 @@ const Layout = () => {
             </Route>
         </Routes>
 
-    </div>
+    </main>
   )
 }
 
